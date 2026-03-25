@@ -1,0 +1,24 @@
+closet take * unfortunate dumplings
+closet take * sewer wad
+closet take * bottle of Ooze-O
+closet take * Oil of oiliness
+pull * hobo nickel
+
+acquire 15 unfortunate dumplings
+acquire 15 sewer wad
+acquire 15 bottle of Ooze-O
+acquire 36 Oil of oiliness
+acquire 15 gatorskin umbrella
+acquire 15 tattered scrap of paper
+#outfit Hamster Stage
+#autoattack safecleesh
+familiar fancypants scarecrow
+equip familiar spangly mariachi pants
+#call scripts/Aftercore/Minus -combat%
+maximize -combat -tie -familiar
+
+equip hobo code binder
+gain -25 combat
+equip gatorskin umbrella
+
+#mood hamsterrun

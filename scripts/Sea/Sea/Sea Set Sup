@@ -1,0 +1,20 @@
+mood iblame...thesea
+outfit I blame... the sea
+equip sea cowboy hat
+equip sea chaps
+equip old scuba tank
+
+familiar grouper groupie
+equip familiar li'l business
+acquire 3 sea cowbell
+acquire 4 sea lasso
+acquire 15 volcanic ash
+#acquire 30 crayon shavings
+use * fishy pipe
+friars familiar
+ccs weapon of the timelord
+autoattack none
+
+#cast ode to booze; drink 1 bottle of pete's sake; create 3 slick maki; drink 1 pumpkin beer
+
+ash if (get_property("__user_lockkey_dropped_from") == "" && available_amount($item[mer-kin lockkey]) > 0) { set_property("__user_lockkey_dropped_from", "Mer-Kin Raider"); set_property("__user_lockkey_dropped_from_ascension", to_string(my_ascensions())); }
