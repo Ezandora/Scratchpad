@@ -1,0 +1,13 @@
+maximize item -tie
+ashq if (my_familiar() != $familiar[fancypants scarecrow] && $familiar[fancypants scarecrow].have_familiar()) cli_execute("unequip familiar; familiar scarecrow");
+ashq if (!$familiar[fancypants scarecrow].have_familiar()) cli_execute("familiar hound dog");
+
+ashq if (my_familiar() == $familiar[fancypants scarecrow]) cli_execute("equip familiar spangly mariachi pants");
+
+ash while (have_effect($effect[Heavy Petting]) < 30) cli_execute("use 1 knob goblin pet-buffing spray");
+uneffect sonata
+uneffect carlweather
+
+ash while (have_effect($effect[fat leon's phat loot lyric]) < 20) cli_execute("cast 1 fat leon's phat loot lyric");
+ash while (have_effect($effect[Peeled Eyeballs]) < 30) cli_execute("use 1 knob goblin eyedrops");
+

@@ -1,0 +1,5 @@
+unequip ring of conflict; unequip silent beretmaximize +combat -tieuneffect sonata; uneffect fresh scent; uneffect smooth movements; uneffect phat loot lyric
+
+ash while (have_effect($effect[musk of the moose]) < 20) cli_execute("cast 1 musk of the moose");
+ash while (have_effect($effect[carlweather's cantata of confrontation]) < 20) cli_execute("cast 1 carlweather's cantata of confrontation");
+ash while (have_effect($effect[Hippy Stench]) < 20) cli_execute("use 1 handful of pine needles");

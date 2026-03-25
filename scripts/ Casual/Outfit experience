@@ -1,0 +1,6 @@
+maximize exp -tie
+ash if ($item[camp scout backpack].available_amount() > 0) cli_execute("equip camp scout backpack");
+#outfit save Current
+ash if (my_familiar() != $familiar[fancypants scarecrow] && $familiar[fancypants scarecrow].have_familiar()) cli_execute("unequip familiar; familiar scarecrow");
+
+equip familiar pin-stripe slacks
